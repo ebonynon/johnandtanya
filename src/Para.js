@@ -1,5 +1,6 @@
 import React from "react";
 import john from "./images/image-john.jpg";
+import tanya from "./images/image-tanya.jpg";
 import {
   Grid,
   Typography,
@@ -100,7 +101,7 @@ export default function AutoGrid() {
                   </Typography>
                   <br></br>
                   <Typography gutterBottom variant="h6" component="h2">
-                    <b>John Tarkpor</b> 
+                    <b>John Tarkpor</b>
                   </Typography>
                   <Typography
                     gutterBottom
@@ -109,6 +110,44 @@ export default function AutoGrid() {
                     color="secondary"
                   >
                     <i>Junior Front-end Developer</i>
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+            </Card>
+          </Grid>
+
+          <Grid item xs={12} lg={12} className={classes.img}>
+            <Card className={classes.john}>
+              <CardActionArea className={classes.flex}>
+                <CardMedia
+                  component="img"
+                  alt="Contemplative Reptile"
+                  image={tanya}
+                  title="Contemplative Reptile"
+                  style={{ maxHeight: 540, maxWidth: 540 }}
+                />
+                <CardContent>
+                  <Typography
+                    variant="h5"
+                    component="p"
+                    className={classes.txt}
+                  >
+                    “ I’ve been interested in coding for a while but never taken
+                    the jump, until now. I couldn’t recommend this course
+                    enough. I’m now in the job of my dreams and so excited about
+                    the future. ”
+                  </Typography>
+                  <br></br>
+                  <Typography gutterBottom variant="h6" component="h2">
+                    <b>Tanya Sinclair</b>
+                  </Typography>
+                  <Typography
+                    gutterBottom
+                    variant="h6"
+                    component="h2"
+                    color="secondary"
+                  >
+                    <i>UX Engineer</i>
                   </Typography>
                 </CardContent>
               </CardActionArea>
