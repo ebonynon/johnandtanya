@@ -41,9 +41,9 @@ const useStyles = makeStyles((theme) => ({
     height: "auto",
     maxWidth: 1080,
     boxShadow: "10px 10px 5px #ccc",
-    minWidth: 275,
-    marginRight: 10,
-    marginLeft: 10,
+    //minWidth: 275, -- Nilwala
+    //marginRight: 10,
+    //marginLeft: 10,
   },
   txt: {
     position: "relativ",
