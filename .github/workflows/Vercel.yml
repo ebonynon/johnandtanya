@@ -1,0 +1,29 @@
+- name: Vercel Action
+  uses: amondnet/vercel-action@v19.0.1+1
+  with:
+    # Vercel token
+    vercel-token: 
+    # 
+    vercel-args: # optional, default is 
+    # if you want to comment on pr and commit, set true, default: true
+    github-comment: # optional, default is true
+    # if you want to comment on pr and commit, set token
+    github-token: # optional
+    # if you want to create github deployment, set true, default: false
+    github-deployment: # optional, default is false
+    # the working directory
+    working-directory: # optional
+    # Vercel CLI 17+, ❗️  The `name` property in vercel.json is deprecated (https://zeit.ink/5F)
+    vercel-project-id: # optional
+    # Vercel CLI 17+, ❗️  The `name` property in vercel.json is deprecated (https://zeit.ink/5F)
+    vercel-org-id: # optional
+    # If you are work in team scope, you should set this value to your team id.
+    scope: # optional
+    # zeit.co token
+    zeit-token: 
+    # 
+    now-args: # optional, default is 
+    # Vercel CLI 17+, ❗️  The `name` property in vercel.json is deprecated (https://zeit.ink/5F)
+    now-project-id: # optional
+    # Vercel CLI 17+, ❗️  The `name` property in vercel.json is deprecated (https://zeit.ink/5F)
+    now-org-id: # optional
