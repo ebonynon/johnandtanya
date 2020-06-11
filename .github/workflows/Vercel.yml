@@ -2,7 +2,7 @@
   uses: amondnet/vercel-action@v19.0.1+1
   with:
     # Vercel token
-    vercel-token: 
+    vercel-token: 97CHIOUhJM1SwuFaMVLTevrU
     # 
     vercel-args: # optional, default is 
     # if you want to comment on pr and commit, set true, default: true
